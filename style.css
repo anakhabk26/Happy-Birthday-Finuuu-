@@ -159,3 +159,11 @@ button:hover {
         opacity: 1;
     }
   }
+.photo {
+  width: 90%;
+  max-width: 350px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 25px;
+    }
+
