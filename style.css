@@ -179,3 +179,12 @@ button:hover {
   cursor: pointer;
   z-index: 1000;
     }
+.photo {
+  width: 90%;           /* scales with container */
+  max-width: 350px;     /* prevents being too big */
+  height: auto;         /* keeps original aspect ratio */
+  object-fit: contain;  /* ensures full image is visible */
+  border-radius: 25px;
+  display: block;
+  margin: 20px auto;    /* centers the image */
+}
