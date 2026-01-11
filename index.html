@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Vaaavzzz 💙</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<div class="container">
+    <h1>🎉 Happy Birthday <span>Vaaavzzz</span> 🎉</h1>
+    <p class="sub">This website is made just for you 💫</p>
+
+    <!-- Countdown -->
+    <h2 id="countdown"></h2>
+
+    <button onclick="showMessage()">💝 Tap for Message</button>
+    <p id="message" class="hidden">
+        You are my favourite person and my happiest place ✨  
+        I’m so grateful for you 💙
+    </p>
+
+    <!-- Slideshow -->
+    <div class="slideshow">
+        <img src="photo1.jpg" class="slide active">
+        <img src="photo2.jpg" class="slide">
+        <img src="photo3.jpg" class="slide">
+    </div>
+
+    <!-- Reasons -->
+    <h2 class="reasons-title">💙 24 Reasons Why I Love You 💙</h2>
+    <button onclick="showNextReason()">💌 Click to see a reason</button>
+    <div id="reasonsBox" class="reasons"></div>
+
+    <button onclick="playMusic()">🎵 Play Song</button>
+</div>
+
+<audio id="bgMusic" src="song.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+      </html>
