@@ -110,3 +110,10 @@ function showFinalPopup() {
 
     document.body.appendChild(popup);
             }
+const music = document.getElementById("bg-music");
+const playBtn = document.getElementById("playMusicBtn");
+
+playBtn.addEventListener("click", () => {
+  music.play();
+  playBtn.style.display = "none";
+});
